@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Title</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/base.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link rel="stylesheet" type="text/css" href="css/index-queries.css">
+	            <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+            <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700" rel="stylesheet">
+
+</head>
+
+<body>
+
+	            <div class="address">
+                    <form action="" method="post">
+                        <div class="form-group">
+                            <div class="label-container">
+                                <label for="address-line-1">Address Line 1</label>
+                            </div>
+                            <input placeholder="Address Line 1" id="address-line-1" name="address-line-1">
+                        </div>
+                        <div class="form-group">
+                            <div class="label-container">
+                                <label for="address-line-2">Address Line 2</label>
+                            </div>
+                            <input placeholder="Address Line 2" id="address-line-2" name="address-line-2">
+                        </div>
+
+                        <div class="form-group">
+                            <div class="label-container">
+                                <label for="in-postcode">Postcode</label>
+                            </div>
+                            <input placeholder="Postcode" id="postcode" name="postcode" pattern="^(([A-z][0-9]{1,2})|(([A-z][A-zJ-y][0-9]{1,2})|(([A-z][0-9][A-z])|([A-Z][A-zJ-y][0-9]?[A-z])))) [0-9][A-z]{2}$" required >
+
+                        </div>
+
+                        <div class="submit-btn">
+                         	<input class="btn green-btn" id="submit-address" type="button" value="Continue">
+                        </div>
+                    </form>
+                </div>
+
+            <div class="top-container">
+                <h1>GoGo Food </h1>
+                <h4>Insert gimmicky and whitty subheading here</h4>
+                <input type="button" class="btn red-btn" id="open-address" value="Menu">
+            </div>
+
+
+            <div class="bottom-container">
+
+                <div class="section">
+                    <div class="icon-container">
+                        <i class="fas fa-hamburger"></i>
+                    </div>
+                    <div class="contents-container">
+                        <p class="section-title">MENU</p>
+                        <p class="section-body">Get lost in our menu and after much indecision, come to a conclusion as to what you would like to eat</p>
+                    </div>
+                </div>
+
+			<div class="section">
+               <div class="icon-container">
+                    <i class="fas fa-map-marker-alt"></i>
+               </div>
+             <div class="contents-container">
+                  <p class="section-title">LOCATION</p>
+                  <p class="section-body">Set your home address so we know where to send your food. We are everywhere, so location is not an issue!</p>
+             </div>
+                </div>
+
+                <div class="section">
+                    <div class="icon-container">
+                        <i class="fas fa-water"></i>
+                    </div>
+                    <div class="contents-container">
+                        <p class="section-title">DISHES</p>
+                        <p class="section-body">And now we've done our bit, all that's left for you to do is the dishes <em>(or whatever)</em></p>
+                    </div>
+                </div>
+            </div>
+
+
+			<!-- Script Files -->
+			<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+            <script type="text/javascript" src="js/index.js"></script>
+
+</body>
+</html>
